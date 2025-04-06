@@ -1,2 +1,11 @@
 /files/*
 /files
+
+echo "node_modules
+.env
+.DS_Store
+dist
+*.log
+.cache
+.vscode" > .gitignore
+node_modules
